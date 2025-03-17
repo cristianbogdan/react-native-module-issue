@@ -1,0 +1,8 @@
+services:
+  vite:
+    build: .
+    volumes:
+      - ./:/work
+      - ignore:/work/node_modules
+volumes:
+  ignore: {}
