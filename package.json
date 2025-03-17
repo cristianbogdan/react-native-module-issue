@@ -1,0 +1,26 @@
+{
+  "main": "expo-router/entry",
+    "version": "1.0.0",
+  "scripts": {
+    "expo":  "expo start",
+    "test": "vitest",
+    "dev": "NODE_OPTIONS='--no-experimental-detect-module' vitest"
+  },
+  "dependencies": {
+    "expo": "52.*",
+    "expo-router": "4.0.7",
+    "react": "^18.3.1",
+    "react-native": "^0.77.*",
+    "react-native-web":"0.19.13"
+  },
+  "devDependencies": {
+    "vitest": "latest",
+    "@babel/core": "^7.20.0",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "react-test-renderer": "18.3.1",
+    "@testing-library/react-native": "13.2.0",
+    "vitest-react-native":"latest",
+    "@vitejs/plugin-react":"latest"
+  },
+  "private": true
+}
