@@ -18,9 +18,7 @@
     "@babel/core": "^7.20.0",
     "babel-plugin-module-resolver": "^5.0.2",
     "react-test-renderer": "18.3.1",
-    "@testing-library/react-native": "13.2.0",
-    "vitest-react-native":"latest",
-    "@vitejs/plugin-react":"latest"
+      "@testing-library/react-native": "13.2.0"
   },
   "private": true
 }
